@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ProdItem>img{
+  width: 100px;
+ 
+}
+#imgProd{
+  width: 100px;
+}
+.ProdItem{
+  border: 1px solid white;
+  width: 450px;
+  margin: 5px 5px;
+  border-radius: 10px;
+}
+
+.liNavBar{
+display: inline;
+padding: 10px;
+
+}
+.linkItem{
+  color: rgb(226, 226, 213);
+  font-weight: bold;
+  text-decoration: none;
+}
+.navBarDiv{
+background-color: rgb(15, 114, 226);
+position: sticky;
+top:0;
+}
+.spanBusqueda{
+  color: rgb(232, 0, 0);;
+}
+.loginInfo{
+display: inline;
+position: fixed;
+right: 0;
+width: 150px;
+
+}
+.ulDivNavBar{
+padding: 15px;
+  margin: 0%;
+
+}
+.loginDiv>input{
+  margin: 5px;
+}
+.divInputsLogin>input{
+  margin: 5px;
+  
+
+}
+.formBusqueda{
+  padding: 0px;
+  margin: 0px;
+
+}
+.nombreBusqueda{
+  margin: 5px;
+}
